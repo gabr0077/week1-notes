@@ -1,30 +1,8 @@
-
-// //console.log (" hello world".toLocaleUpperCase());
-
-
-// console.log(Math.floor(Math.random()*10)+1);
-
-
-// console.log (" All Around The World".charAt(7).toUpperCase());
-
-const pipe = ["|     |"]
-const dash = ["-------"]
-
-let pipcount = 0;
-let dashcount = 0;
-
-const print = () =>{
-
-    for (pipcoount = 0; pipcount <=2; pipcount++)
-    console.log(pipe)
-    if (dashcount <=1){
-        console.log(dash);
-        dashcount++
-
-    } else { 
-        console.log("end here");
-
-    }
-}
-
-print();
+const Foday = new Date() ;
+const Birthday = new Date ("1994, 4, 7");
+// 1000 ms is equal to 1 second. 60 seconds per minute. 60 minutes per hour. 24 hours per day.
+totalDaysAlive = Math.floor ((Today-Birthday) / 1000 / 60 / 60 / 24);
+console.log(`
+Today's Date is ${Today. toLocaleDateString()}
+I was born on ${Birthday.toLocaleDateString()}.
+I have been alive so far for ${totalDaysAlive} days.`);

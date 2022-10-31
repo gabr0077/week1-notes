@@ -1,27 +1,14 @@
-// const cafe = {
-//     name: "Whitesheep",
-//     seatingCapacity: 100,
-//     hasspecialoffers: true,
-//     drinks:[
-//     "Cappuccino"
-//     "latte"
-//     "Tea"
-//     "Hotchocolate"
-//     ]
-// };
-// console.log 
-
-//let person = {
-  //  name: "Gabr",
-    //age: 36,
-    //songslist: [
-      // "oneay or another",
-       //"in da club",
-       //"Yeah",
+let person = {
+   name: "Gabr",
+    age: 36,
+    songslist: [
+      "oneay or another",
+       "in da club",
+       "Yeah",
        
-    //]
-//};
-//console.log(person.songslist)
+    ]
+};
+console.log(person.songslist)
 
 let coffeeShop2 = {
     branch: 'Costa',
