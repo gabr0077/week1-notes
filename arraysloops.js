@@ -59,6 +59,16 @@
 
 // console.log(currentCard);
 
-let shoppingLists = [ "drinks", "salad", "food"];
+// let shoppingLists = [ "drinks", "salad", "food"];
 
-let drinks = ( "redbull, ")
+// let drinks = ( "redbull, ")
+
+
+//activity1
+
+const favMovies = [ "close margin", "green zone", "training day","7 sins", "law abidding citizen" ];
+favMovies.push ("the last samurai");
+let text = "";
+for (let x of favMovies) {
+  text += x;
+}
