@@ -104,4 +104,32 @@ console.log(reverseStringDemo("hello world"));
 // }              
 // console.log(factorial(33));
 
-console.log (" hello week2")
+
+// activity 2
+
+   let orderCount = 0;
+
+   const takeOrder = (topping1, topping2) => {
+    console.log(`pizza with ${topping1} and ${topping2}`);
+    orderCount++;
+   }
+takeOrder("pinapple", "ham" )
+takeOrder("x","y")
+takeOrder("x","y")
+takeOrder("x","y")
+
+console.log(`order number is: ${orderCount}`)
+
+
+
+
+
+// activity 3
+
+let password = 569832417;
+let balance = 1000;
+let accNumber = 11111111;
+
+const withdraw = (amount , pinCode) => {
+if ((amount <= balance) && (pinCode == password)) {
+    console.log(`withdrawing ${amount} from account ${accnumber} and your current balance is: ${(balance))

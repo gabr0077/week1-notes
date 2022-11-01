@@ -2,13 +2,58 @@ let person = {
    name: "Gabr",
     age: 36,
     songslist: [
-      "oneay or another",
+      "one way or another",
        "in da club",
        "Yeah",
        
     ]
 };
 console.log(person.songslist)
+
+
+
+// activity1 
+
+const person1 = {
+name: "gabr",
+age: "36",
+hobbies: "running",
+movies: [
+"close margin",
+"green zone",
+"training day"
+      ],
+
+    
+    sayHi() {
+      console.log(`hello my name is ${this.name}`)
+    }
+    }
+    
+    person1.sayHi();
+    
+       // acctivityy 2
+
+       let pet = {
+          name: 'brozy',
+          typeOfPet: 'german shaperd',
+          age: 3,
+          colour: 'golden balck',
+          eat(){
+              return `${this.name} is eating`
+          },
+          drink(){
+              return `${this.name} is drinking`
+          }
+        };
+        
+        // console.log(pet.drink())
+        console.log(pet.eat())
+        
+
+
+       // activity 3 
+
 
 let coffeeShop2 = {
     branch: 'Costa',

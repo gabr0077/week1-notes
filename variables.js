@@ -50,16 +50,12 @@ console.log(`my breakfastMeal tomorrow is ${breakFastMeal}, my lunchmeal tomorro
 
 // activaty 3
 
-const start_date = new Date('1985, 11,09');
-const end_date = new Date();
-let differnt = end_date-start_date;
+let today = new Date()
+let myBirthday = new Date ("9 november 1985")
 
-console.log(differnt);
+let alive = Math.floor((today-myBirthday)/(24*60*60*100))
 
-differnt= math.floor((end_date-start_date) / 1000/ 60/ 60/ 24);
-
-console.log(`start_dateis ${start_date.toLocaleTimeString()}`);
-console.log(`i have been alive for ${differnt}days`);
+console.log(alive)
 
 
 
